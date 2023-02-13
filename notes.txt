@@ -1,0 +1,5 @@
+Read.: https://blog.kubukoz.com/flakes-first-steps/
+install direnv
+echo "use flake ." > .envrc
+direnv allow
+sbt new akka/akka-quickstart-scala.g8
